@@ -25,3 +25,17 @@ collections:
           - {label: Image 3 - Alt Info, name: image3alt, widget: string }
           - {label: Image 4, name: image4, widget: image}
           - {label: Image 4 - Alt Info, name: image4alt, widget: string }
+
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "src/pages/portfolio"
+    create: true
+    slug: "/portfolio/{{title}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {label: Image 1, name: image1, widget: image}
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
