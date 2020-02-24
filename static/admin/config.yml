@@ -30,7 +30,7 @@ collections:
     label: "Portfolio"
     folder: "src/pages/portfolio"
     create: true
-    slug: "/portfolio/{{title}}"
+    slug: "{{title}}"
     editor:
      preview: false
     fields:
